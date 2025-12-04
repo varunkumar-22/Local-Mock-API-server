@@ -7,6 +7,26 @@ import sys
 import os
 import argparse
 
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+
+app = FastAPI()
+
+# IMPORTANT: Replace with your actual frontend Render URL
+FRONTEND_URL = "https://local-mock-api-server-3.onrender.com"
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[FRONTEND_URL],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+@app.get("/test")
+def test():
+    return {"message": "Backend is working!"}
+
 # Add server directory to path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'server'))
 
