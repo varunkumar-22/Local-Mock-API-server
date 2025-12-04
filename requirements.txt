@@ -1,4 +1,6 @@
 # Core dependencies (Python standard library is sufficient for basic functionality)
+fastapi
+uvicorn
 # No external dependencies required for basic server operation
 
 # Optional: For testing
