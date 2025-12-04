@@ -13,11 +13,16 @@ from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI()
 
 # IMPORTANT: Replace with your actual frontend Render URL
-FRONTEND_URL = "https://local-mock-api-server-3.onrender.com"
+# origins = [
+#     "https://your-frontend.onrender.com",
+#     "http://localhost:3000",   # optional for local testing
+# ]
+
+
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[FRONTEND_URL],
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
