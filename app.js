@@ -1,4 +1,4 @@
-const API_BASE = 'http://localhost:8000';
+const API_BASE = 'https://local-mock-api-server-4.onrender.com';
 
 const endpoints = {
     'games': {
@@ -302,3 +302,4 @@ function showError(message) {
         </div>
     `;
 }
+
