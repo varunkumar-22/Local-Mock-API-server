@@ -1,0 +1,1174 @@
+[
+  {
+    "title": "Minecraft",
+    "discounts_and_events": "50%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Sandbox",
+      "Survival",
+      "Open World"
+    ],
+    "sales_leaderboard": 1
+  },
+  {
+    "title": "Grand Theft Auto V",
+    "discounts_and_events": "8%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Action",
+      "Open World",
+      "TPS"
+    ],
+    "sales_leaderboard": 2
+  },
+  {
+    "title": "League of Legends",
+    "discounts_and_events": "28%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Real-Time Strategy",
+      "Multiplayer",
+      "Action"
+    ],
+    "sales_leaderboard": 3
+  },
+  {
+    "title": "Elden Ring",
+    "discounts_and_events": "27%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Action",
+      "RPG",
+      "Open World"
+    ],
+    "sales_leaderboard": 4
+  },
+  {
+    "title": "Baldur's Gate 3",
+    "discounts_and_events": "13%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "RPG",
+      "Turn-Based Strategy",
+      "Story"
+    ],
+    "sales_leaderboard": 5
+  },
+  {
+    "title": "Counter-Strike 2",
+    "discounts_and_events": "7%",
+    "new_release": true,
+    "highest_rated": true,
+    "genres": [
+      "FPS",
+      "Multiplayer",
+      "Action"
+    ],
+    "sales_leaderboard": 6
+  },
+  {
+    "title": "Red Dead Redemption 2",
+    "discounts_and_events": "18%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Action",
+      "Open World",
+      "TPS",
+      "Story"
+    ],
+    "sales_leaderboard": 7
+  },
+  {
+    "title": "Cyberpunk 2077",
+    "discounts_and_events": "41%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Action",
+      "RPG",
+      "Open World",
+      "FPS"
+    ],
+    "sales_leaderboard": 8
+  },
+  {
+    "title": "Call of Duty: Warzone",
+    "discounts_and_events": "15%",
+    "new_release": false,
+    "highest_rated": false,
+    "genres": [
+      "FPS",
+      "Multiplayer",
+      "Action"
+    ],
+    "sales_leaderboard": 9
+  },
+  {
+    "title": "Apex Legends",
+    "discounts_and_events": "22%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "FPS",
+      "Multiplayer",
+      "Action"
+    ],
+    "sales_leaderboard": 10
+  },
+  {
+    "title": "The Legend of Zelda: Tears of the Kingdom",
+    "discounts_and_events": "6%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Action",
+      "Open World",
+      "RPG",
+      "Puzzle"
+    ],
+    "sales_leaderboard": 11
+  },
+  {
+    "title": "Hogwarts Legacy",
+    "discounts_and_events": "19%",
+    "new_release": false,
+    "highest_rated": false,
+    "genres": [
+      "RPG",
+      "Open World",
+      "Story"
+    ],
+    "sales_leaderboard": 12
+  },
+  {
+    "title": "The Elder Scrolls V: Skyrim",
+    "discounts_and_events": "20%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "RPG",
+      "Open World",
+      "Action"
+    ],
+    "sales_leaderboard": 13
+  },
+  {
+    "title": "Valorant",
+    "discounts_and_events": "10%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "FPS",
+      "Multiplayer",
+      "Action"
+    ],
+    "sales_leaderboard": 14
+  },
+  {
+    "title": "The Sims 4",
+    "discounts_and_events": "5%",
+    "new_release": false,
+    "highest_rated": false,
+    "genres": [
+      "Simulation",
+      "Story"
+    ],
+    "sales_leaderboard": 15
+  },
+  {
+    "title": "Genshin Impact",
+    "discounts_and_events": "12%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Action",
+      "RPG",
+      "Open World"
+    ],
+    "sales_leaderboard": 16
+  },
+  {
+    "title": "Rocket League",
+    "discounts_and_events": "21%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Sports",
+      "Multiplayer"
+    ],
+    "sales_leaderboard": 17
+  },
+  {
+    "title": "God of War Ragnarök",
+    "discounts_and_events": "37%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Action",
+      "Story"
+    ],
+    "sales_leaderboard": 18
+  },
+  {
+    "title": "Horizon Forbidden West",
+    "discounts_and_events": "24%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Action",
+      "RPG",
+      "Open World"
+    ],
+    "sales_leaderboard": 19
+  },
+  {
+    "title": "Resident Evil 4 (Remake)",
+    "discounts_and_events": "25%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Action",
+      "Horror",
+      "Survival",
+      "TPS"
+    ],
+    "sales_leaderboard": 20
+  },
+  {
+    "title": "Starfield",
+    "discounts_and_events": "33%",
+    "new_release": false,
+    "highest_rated": false,
+    "genres": [
+      "RPG",
+      "Open World",
+      "FPS"
+    ],
+    "sales_leaderboard": 21
+  },
+  {
+    "title": "Final Fantasy XVI",
+    "discounts_and_events": "46%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Action",
+      "RPG",
+      "Story"
+    ],
+    "sales_leaderboard": 22
+  },
+  {
+    "title": "Marvel's Spider-Man 2",
+    "discounts_and_events": "1%",
+    "new_release": true,
+    "highest_rated": true,
+    "genres": [
+      "Action",
+      "Open World",
+      "Story"
+    ],
+    "sales_leaderboard": 23
+  },
+  {
+    "title": "Dead by Daylight",
+    "discounts_and_events": "5%",
+    "new_release": false,
+    "highest_rated": false,
+    "genres": [
+      "Horror",
+      "Multiplayer",
+      "Survival"
+    ],
+    "sales_leaderboard": 24
+  },
+  {
+    "title": "It Takes Two",
+    "discounts_and_events": "45%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Platformer",
+      "Multiplayer",
+      "Story"
+    ],
+    "sales_leaderboard": 25
+  },
+  {
+    "title": "Forza Horizon 5",
+    "discounts_and_events": "38%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Racing",
+      "Open World",
+      "Simulation"
+    ],
+    "sales_leaderboard": 26
+  },
+  {
+    "title": "Terraria",
+    "discounts_and_events": "9%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Sandbox",
+      "Survival",
+      "Platformer",
+      "Action"
+    ],
+    "sales_leaderboard": 27
+  },
+  {
+    "title": "Stardew Valley",
+    "discounts_and_events": "26%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Simulation",
+      "RPG",
+      "Story"
+    ],
+    "sales_leaderboard": 28
+  },
+  {
+    "title": "Star Wars Jedi: Survivor",
+    "discounts_and_events": "27%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Action",
+      "Metroidvania",
+      "RPG"
+    ],
+    "sales_leaderboard": 29
+  },
+  {
+    "title": "Ghost of Tsushima",
+    "discounts_and_events": "30%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Action",
+      "Open World",
+      "Story",
+      "Stealth"
+    ],
+    "sales_leaderboard": 30
+  },
+  {
+    "title": "Mortal Kombat 1",
+    "discounts_and_events": "9%",
+    "new_release": true,
+    "highest_rated": false,
+    "genres": [
+      "Fighting",
+      "Action",
+      "Multiplayer"
+    ],
+    "sales_leaderboard": 31
+  },
+  {
+    "title": "Hades",
+    "discounts_and_events": "49%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Action",
+      "Roguelike",
+      "Metroidvania"
+    ],
+    "sales_leaderboard": 32
+  },
+  {
+    "title": "Diablo IV",
+    "discounts_and_events": "2%",
+    "new_release": false,
+    "highest_rated": false,
+    "genres": [
+      "Action",
+      "RPG",
+      "Multiplayer"
+    ],
+    "sales_leaderboard": 33
+  },
+  {
+    "title": "Lies of P",
+    "discounts_and_events": "26%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Action",
+      "Story",
+      "Metroidvania"
+    ],
+    "sales_leaderboard": 34
+  },
+  {
+    "title": "Hollow Knight",
+    "discounts_and_events": "46%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Metroidvania",
+      "Platformer",
+      "Action"
+    ],
+    "sales_leaderboard": 35
+  },
+  {
+    "title": "Sekiro: Shadows Die Twice",
+    "discounts_and_events": "40%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Action",
+      "Story"
+    ],
+    "sales_leaderboard": 36
+  },
+  {
+    "title": "Doom Eternal",
+    "discounts_and_events": "11%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "FPS",
+      "Action"
+    ],
+    "sales_leaderboard": 37
+  },
+  {
+    "title": "Resident Evil Village",
+    "discounts_and_events": "43%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Horror",
+      "Survival",
+      "FPS",
+      "Action"
+    ],
+    "sales_leaderboard": 38
+  },
+  {
+    "title": "A Plague Tale: Requiem",
+    "discounts_and_events": "24%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Story",
+      "Stealth",
+      "Action"
+    ],
+    "sales_leaderboard": 39
+  },
+  {
+    "title": "Control Ultimate Edition",
+    "discounts_and_events": "37%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Action",
+      "Story",
+      "TPS"
+    ],
+    "sales_leaderboard": 40
+  },
+  {
+    "title": "Deathloop",
+    "discounts_and_events": "29%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "FPS",
+      "Action",
+      "Stealth"
+    ],
+    "sales_leaderboard": 41
+  },
+  {
+    "title": "Sifu",
+    "discounts_and_events": "0%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Action",
+      "Fighting"
+    ],
+    "sales_leaderboard": 42
+  },
+  {
+    "title": "Vampire Survivors",
+    "discounts_and_events": "32%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Roguelike",
+      "Action"
+    ],
+    "sales_leaderboard": 43
+  },
+  {
+    "title": "Path of Exile",
+    "discounts_and_events": "12%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Action",
+      "RPG",
+      "Card / Deck-Building"
+    ],
+    "sales_leaderboard": 44
+  },
+  {
+    "title": "Stray",
+    "discounts_and_events": "43%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Puzzle",
+      "Story",
+      "Platformer"
+    ],
+    "sales_leaderboard": 45
+  },
+  {
+    "title": "Deep Rock Galactic",
+    "discounts_and_events": "2%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "FPS",
+      "Multiplayer",
+      "Roguelike"
+    ],
+    "sales_leaderboard": 45
+  },
+  {
+    "title": "Warframe",
+    "discounts_and_events": "38%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Action",
+      "Multiplayer",
+      "RPG"
+    ],
+    "sales_leaderboard": 46
+  },
+  {
+    "title": "Subnautica",
+    "discounts_and_events": "35%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Survival",
+      "Open World",
+      "Story"
+    ],
+    "sales_leaderboard": 47
+  },
+  {
+    "title": "Disco Elysium - The Final Cut",
+    "discounts_and_events": "19%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "RPG",
+      "Story"
+    ],
+    "sales_leaderboard": 48
+  },
+  {
+    "title": "Mass Effect Legendary Edition",
+    "discounts_and_events": "47%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "RPG",
+      "TPS",
+      "Story"
+    ],
+    "sales_leaderboard": 49
+  },
+  {
+    "title": "Persona 5 Royal",
+    "discounts_and_events": "35%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "RPG",
+      "Turn-Based Strategy",
+      "Story"
+    ],
+    "sales_leaderboard": 50
+  },
+  {
+    "title": "Death Stranding Director's Cut",
+    "discounts_and_events": "20%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Action",
+      "Story",
+      "Open World"
+    ],
+    "sales_leaderboard": 51
+  },
+  {
+    "title": "Alan Wake 2",
+    "discounts_and_events": "11%",
+    "new_release": true,
+    "highest_rated": true,
+    "genres": [
+      "Horror",
+      "Survival",
+      "Story",
+      "TPS"
+    ],
+    "sales_leaderboard": 52
+  },
+  {
+    "title": "Destiny 2",
+    "discounts_and_events": "14%",
+    "new_release": false,
+    "highest_rated": false,
+    "genres": [
+      "FPS",
+      "Multiplayer",
+      "RPG"
+    ],
+    "sales_leaderboard": 53
+  },
+  {
+    "title": "Dave the Diver",
+    "discounts_and_events": "39%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Action",
+      "RPG",
+      "Simulation",
+      "Roguelike"
+    ],
+    "sales_leaderboard": 53
+  },
+  {
+    "title": "Party Animals",
+    "discounts_and_events": "3%",
+    "new_release": true,
+    "highest_rated": false,
+    "genres": [
+      "Fighting",
+      "Multiplayer"
+    ],
+    "sales_leaderboard": 54
+  },
+  {
+    "title": "Overwatch 2",
+    "discounts_and_events": "16%",
+    "new_release": false,
+    "highest_rated": false,
+    "genres": [
+      "FPS",
+      "Multiplayer",
+      "Action"
+    ],
+    "sales_leaderboard": 55
+  },
+  {
+    "title": "Rust",
+    "discounts_and_events": "33%",
+    "new_release": false,
+    "highest_rated": false,
+    "genres": [
+      "Survival",
+      "Sandbox",
+      "Multiplayer",
+      "Action"
+    ],
+    "sales_leaderboard": 56
+  },
+  {
+    "title": "Sea of Thieves",
+    "discounts_and_events": "34%",
+    "new_release": false,
+    "highest_rated": false,
+    "genres": [
+      "Multiplayer",
+      "Open World",
+      "Action"
+    ],
+    "sales_leaderboard": 57
+  },
+  {
+    "title": "Sons of the Forest",
+    "discounts_and_events": "17%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Survival",
+      "Horror",
+      "Sandbox",
+      "Multiplayer"
+    ],
+    "sales_leaderboard": 58
+  },
+  {
+    "title": "Cities: Skylines II",
+    "discounts_and_events": "36%",
+    "new_release": true,
+    "highest_rated": false,
+    "genres": [
+      "Simulation",
+      "Strategy"
+    ],
+    "sales_leaderboard": 59
+  },
+  {
+    "title": "FIFA 24",
+    "discounts_and_events": "23%",
+    "new_release": true,
+    "highest_rated": false,
+    "genres": [
+      "Sports",
+      "Simulation"
+    ],
+    "sales_leaderboard": 60
+  },
+  {
+    "title": "Assassin's Creed Mirage",
+    "discounts_and_events": "32%",
+    "new_release": true,
+    "highest_rated": false,
+    "genres": [
+      "Action",
+      "Stealth",
+      "Open World",
+      "Story"
+    ],
+    "sales_leaderboard": 61
+  },
+  {
+    "title": "Battlefield 2042",
+    "discounts_and_events": "14%",
+    "new_release": false,
+    "highest_rated": false,
+    "genres": [
+      "FPS",
+      "Multiplayer",
+      "Action"
+    ],
+    "sales_leaderboard": 62
+  },
+  {
+    "title": "Payday 3",
+    "discounts_and_events": "48%",
+    "new_release": true,
+    "highest_rated": false,
+    "genres": [
+      "FPS",
+      "Action",
+      "Multiplayer",
+      "Stealth"
+    ],
+    "sales_leaderboard": 62
+  },
+  {
+    "title": "Days Gone",
+    "discounts_and_events": "8%",
+    "new_release": false,
+    "highest_rated": false,
+    "genres": [
+      "Open World",
+      "Survival",
+      "Action",
+      "Horror"
+    ],
+    "sales_leaderboard": 63
+  },
+  {
+    "title": "Ready or Not",
+    "discounts_and_events": "50%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "FPS",
+      "Simulation",
+      "Multiplayer"
+    ],
+    "sales_leaderboard": 63
+  },
+  {
+    "title": "No Man's Sky",
+    "discounts_and_events": "40%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Sandbox",
+      "Survival",
+      "Open World"
+    ],
+    "sales_leaderboard": 64
+  },
+  {
+    "title": "Fallout 4",
+    "discounts_and_events": "39%",
+    "new_release": false,
+    "highest_rated": false,
+    "genres": [
+      "RPG",
+      "Open World",
+      "FPS",
+      "Survival"
+    ],
+    "sales_leaderboard": 65
+  },
+  {
+    "title": "Grounded",
+    "discounts_and_events": "25%",
+    "new_release": false,
+    "highest_rated": false,
+    "genres": [
+      "Survival",
+      "Sandbox",
+      "Action",
+      "Multiplayer"
+    ],
+    "sales_leaderboard": 66
+  },
+  {
+    "title": "The Outer Worlds",
+    "discounts_and_events": "1%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "RPG",
+      "FPS",
+      "Story"
+    ],
+    "sales_leaderboard": 66
+  },
+  {
+    "title": "Elite Dangerous",
+    "discounts_and_events": "15%",
+    "new_release": false,
+    "highest_rated": false,
+    "genres": [
+      "Simulation",
+      "Open World"
+    ],
+    "sales_leaderboard": 67
+  },
+  {
+    "title": "Monster Hunter Rise",
+    "discounts_and_events": "4%",
+    "new_release": false,
+    "highest_rated": false,
+    "genres": [
+      "Action",
+      "RPG",
+      "Multiplayer"
+    ],
+    "sales_leaderboard": 67
+  },
+  {
+    "title": "Dyson Sphere Program",
+    "discounts_and_events": "6%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Simulation",
+      "Strategy",
+      "Sandbox"
+    ],
+    "sales_leaderboard": 68
+  },
+  {
+    "title": "Dying Light 2 Stay Human",
+    "discounts_and_events": "23%",
+    "new_release": false,
+    "highest_rated": false,
+    "genres": [
+      "Open World",
+      "Action",
+      "Survival"
+    ],
+    "sales_leaderboard": 68
+  },
+  {
+    "title": "Immortals Fenyx Rising",
+    "discounts_and_events": "21%",
+    "new_release": false,
+    "highest_rated": false,
+    "genres": [
+      "Open World",
+      "Action",
+      "RPG",
+      "Puzzle"
+    ],
+    "sales_leaderboard": 69
+  },
+  {
+    "title": "New World",
+    "discounts_and_events": "42%",
+    "new_release": false,
+    "highest_rated": false,
+    "genres": [
+      "RPG",
+      "Multiplayer",
+      "Open World"
+    ],
+    "sales_leaderboard": 71
+  },
+  {
+    "title": "Paladins",
+    "discounts_and_events": "31%",
+    "new_release": false,
+    "highest_rated": false,
+    "genres": [
+      "FPS",
+      "Multiplayer",
+      "Action"
+    ],
+    "sales_leaderboard": 72
+  },
+  {
+    "title": "Goat Simulator 3",
+    "discounts_and_events": "45%",
+    "new_release": false,
+    "highest_rated": false,
+    "genres": [
+      "Simulation",
+      "Open World",
+      "Action"
+    ],
+    "sales_leaderboard": 72
+  },
+  {
+    "title": "Microsoft Flight Simulator",
+    "discounts_and_events": "47%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Simulation"
+    ],
+    "sales_leaderboard": 73
+  },
+  {
+    "title": "Jurassic World Evolution 2",
+    "discounts_and_events": "34%",
+    "new_release": false,
+    "highest_rated": false,
+    "genres": [
+      "Simulation",
+      "Strategy"
+    ],
+    "sales_leaderboard": 73
+  },
+  {
+    "title": "Armored Core 6: Fires of Rubicon",
+    "discounts_and_events": "44%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Action",
+      "Simulation"
+    ],
+    "sales_leaderboard": 74
+  },
+  {
+    "title": "Train Sim World 4",
+    "discounts_and_events": "10%",
+    "new_release": true,
+    "highest_rated": false,
+    "genres": [
+      "Simulation"
+    ],
+    "sales_leaderboard": 74
+  },
+  {
+    "title": "Street Fighter 6",
+    "discounts_and_events": "31%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Fighting",
+      "Action",
+      "Multiplayer"
+    ],
+    "sales_leaderboard": 75
+  },
+  {
+    "title": "Planet Zoo",
+    "discounts_and_events": "22%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Simulation",
+      "Strategy"
+    ],
+    "sales_leaderboard": 75
+  },
+  {
+    "title": "Satisfactory",
+    "discounts_and_events": "28%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Simulation",
+      "Sandbox"
+    ],
+    "sales_leaderboard": 75
+  },
+  {
+    "title": "Spirittea",
+    "discounts_and_events": "40%",
+    "new_release": true,
+    "highest_rated": false,
+    "genres": [
+      "Simulation",
+      "RPG",
+      "Story"
+    ],
+    "sales_leaderboard": 76
+  },
+  {
+    "title": "Tales of Arise",
+    "discounts_and_events": "44%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Action",
+      "RPG",
+      "Story"
+    ],
+    "sales_leaderboard": 76
+  },
+  {
+    "title": "F1 23",
+    "discounts_and_events": "4%",
+    "new_release": false,
+    "highest_rated": false,
+    "genres": [
+      "Racing",
+      "Simulation",
+      "Sports"
+    ],
+    "sales_leaderboard": 77
+  },
+  {
+    "title": "Octopath Traveler II",
+    "discounts_and_events": "15%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "RPG",
+      "Turn-Based Strategy",
+      "Story"
+    ],
+    "sales_leaderboard": 77
+  },
+  {
+    "title": "Life is Strange: True Colors",
+    "discounts_and_events": "7%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Story",
+      "Puzzle"
+    ],
+    "sales_leaderboard": 77
+  },
+  {
+    "title": "Marvel's Guardians of the Galaxy",
+    "discounts_and_events": "49%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Action",
+      "Story",
+      "RPG"
+    ],
+    "sales_leaderboard": 78
+  },
+  {
+    "title": "StarCraft II",
+    "discounts_and_events": "17%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Real-Time Strategy",
+      "Strategy",
+      "Multiplayer"
+    ],
+    "sales_leaderboard": 78
+  },
+  {
+    "title": "Factorio",
+    "discounts_and_events": "48%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Simulation",
+      "Strategy",
+      "Tower Defense"
+    ],
+    "sales_leaderboard": 79
+  },
+  {
+    "title": "Disco Zoo",
+    "discounts_and_events": "11%",
+    "new_release": false,
+    "highest_rated": false,
+    "genres": [
+      "Puzzle",
+      "Simulation"
+    ],
+    "sales_leaderboard": 79
+  },
+  {
+    "title": "Ghostwire: Tokyo",
+    "discounts_and_events": "42%",
+    "new_release": false,
+    "highest_rated": false,
+    "genres": [
+      "Action",
+      "Horror",
+      "Open World",
+      "FPS"
+    ],
+    "sales_leaderboard": 79
+  },
+  {
+    "title": "RimWorld",
+    "discounts_and_events": "3%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Simulation",
+      "Strategy",
+      "Story"
+    ],
+    "sales_leaderboard": 80
+  },
+  {
+    "title": "Age of Empires IV",
+    "discounts_and_events": "36%",
+    "new_release": false,
+    "highest_rated": true,
+    "genres": [
+      "Real-Time Strategy",
+      "Strategy",
+      "Multiplayer"
+    ],
+    "sales_leaderboard": 80
+  }
+]

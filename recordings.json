@@ -1,0 +1,31 @@
+[
+  {
+    "timestamp": "2025-11-20T10:00:00Z",
+    "method": "GET",
+    "path": "/api/users/1",
+    "status": 200,
+    "response": {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com"
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  {
+    "timestamp": "2025-11-20T10:01:00Z",
+    "method": "GET",
+    "path": "/api/posts",
+    "status": 200,
+    "response": {
+      "posts": [
+        {"id": 1, "title": "First Post"},
+        {"id": 2, "title": "Second Post"}
+      ]
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+]

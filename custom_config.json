@@ -1,0 +1,41 @@
+{
+  "port": 8080,
+  "cors": true,
+  "endpoints": [
+    {
+      "path": "/api/orders",
+      "method": "GET",
+      "response": {
+        "orders": [
+          {
+            "id": "{{uuid}}",
+            "customer": "Customer {{random_int}}",
+            "total": 299.99,
+            "status": "pending",
+            "created_at": "{{timestamp}}"
+          }
+        ],
+        "page": "{{query.page}}",
+        "limit": "{{query.limit}}"
+      },
+      "status": 200,
+      "latency_ms": 150,
+      "failure_rate": 0.1
+    },
+    {
+      "path": "/api/auth/login",
+      "method": "POST",
+      "response": {
+        "token": "{{uuid}}",
+        "expires_at": "{{timestamp}}",
+        "user": {
+          "id": "{{random_int}}",
+          "username": "testuser"
+        }
+      },
+      "status": 200,
+      "latency_ms": 300,
+      "failure_rate": 0.0
+    }
+  ]
+}

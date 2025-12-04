@@ -1,0 +1,56 @@
+### VS Code REST Client Examples
+### Install the REST Client extension to use this file
+
+### Get all games
+GET http://localhost:8000/api/games
+
+###
+
+### Get new releases
+GET http://localhost:8000/api/games/new-releases
+
+###
+
+### Get highest rated games
+GET http://localhost:8000/api/games/highest-rated
+
+###
+
+### Search for a specific game
+GET http://localhost:8000/api/games/search?title=Minecraft
+
+###
+
+### Filter games by genre
+GET http://localhost:8000/api/games/genre?genre=RPG
+
+###
+
+### Health check
+GET http://localhost:8000/api/health
+
+###
+
+### Get request logs
+GET http://localhost:8000/__logs
+
+###
+
+### Reload configuration
+POST http://localhost:8000/__reload
+
+###
+
+### Custom config - Orders endpoint
+GET http://localhost:8080/api/orders?page=1&limit=10
+
+###
+
+### Custom config - Auth login
+POST http://localhost:8080/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "testuser",
+  "password": "testpass"
+}

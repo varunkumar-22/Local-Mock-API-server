@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Mock Server - Testing Interface</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1> API Mock Server Tester</h1>
+            <div class="server-status">
+                <span id="status-indicator" class="status-dot"></span>
+                <span id="status-text">Checking server...</span>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <!-- Sidebar with endpoints -->
+            <aside class="sidebar">
+                <h2>Endpoints</h2>
+                
+                <div class="endpoint-group">
+                    <h3>Games API</h3>
+                    <button class="endpoint-btn" data-endpoint="games">All Games</button>
+                    <button class="endpoint-btn" data-endpoint="new-releases">New Releases</button>
+                    <button class="endpoint-btn" data-endpoint="highest-rated">Highest Rated</button>
+                    <button class="endpoint-btn" data-endpoint="discounts">Discounts</button>
+                    <button class="endpoint-btn" data-endpoint="search">Search Game</button>
+                    <button class="endpoint-btn" data-endpoint="genre">Filter by Genre</button>
+                </div>
+
+                <div class="endpoint-group">
+                    <h3>Actions</h3>
+                    <button class="endpoint-btn" data-endpoint="review">Submit Review</button>
+                    <button class="endpoint-btn" data-endpoint="wishlist">View Wishlist</button>
+                    <button class="endpoint-btn" data-endpoint="wishlist-add">Add to Wishlist</button>
+                    <button class="endpoint-btn" data-endpoint="wishlist-remove">Remove from Wishlist</button>
+                </div>
+
+                <div class="endpoint-group">
+                    <h3>System</h3>
+                    <button class="endpoint-btn" data-endpoint="health">Health Check</button>
+                    <button class="endpoint-btn" data-endpoint="logs">View Logs</button>
+                    <button class="endpoint-btn" data-endpoint="reload">Reload Config</button>
+                </div>
+            </aside>
+
+            <!-- Main content area -->
+            <main class="content">
+                <div class="request-panel">
+                    <h2>Request</h2>
+                    <div class="request-info">
+                        <div class="method-url">
+                            <span id="request-method" class="method-badge">GET</span>
+                            <input type="text" id="request-url" value="http://localhost:8000/api/games" readonly>
+                        </div>
+                        
+                        <div id="params-section" class="params-section" style="display: none;">
+                            <h3>Parameters</h3>
+                            <div id="params-container"></div>
+                        </div>
+
+                        <div id="body-section" class="body-section" style="display: none;">
+                            <h3>Request Body (JSON)</h3>
+                            <textarea id="request-body" placeholder='{"title": "Minecraft", "price": "$19.99", "rating": 9.0}' rows="8"></textarea>
+                        </div>
+
+                        <button id="send-request" class="btn-primary">Send Request</button>
+                    </div>
+                </div>
+
+                <div class="response-panel">
+                    <div class="response-header">
+                        <h2>Response</h2>
+                        <div class="response-meta">
+                            <span id="response-status"></span>
+                            <span id="response-time"></span>
+                        </div>
+                    </div>
+                    <div id="response-content" class="response-content">
+                        <p class="placeholder">Select an endpoint and send a request to see the response</p>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="static/app.js"></script>
+</body>
+</html>

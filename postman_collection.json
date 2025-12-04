@@ -1,0 +1,143 @@
+{
+  "info": {
+    "name": "Local Mock API Server",
+    "description": "Collection for testing the local mock API server",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Games API",
+      "item": [
+        {
+          "name": "Get All Games",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8000/api/games",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8000",
+              "path": ["api", "games"]
+            }
+          }
+        },
+        {
+          "name": "Get New Releases",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8000/api/games/new-releases",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8000",
+              "path": ["api", "games", "new-releases"]
+            }
+          }
+        },
+        {
+          "name": "Get Highest Rated",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8000/api/games/highest-rated",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8000",
+              "path": ["api", "games", "highest-rated"]
+            }
+          }
+        },
+        {
+          "name": "Search Game by Title",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8000/api/games/search?title=Minecraft",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8000",
+              "path": ["api", "games", "search"],
+              "query": [
+                {
+                  "key": "title",
+                  "value": "Minecraft"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Filter by Genre",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8000/api/games/genre?genre=RPG",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8000",
+              "path": ["api", "games", "genre"],
+              "query": [
+                {
+                  "key": "genre",
+                  "value": "RPG"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Server Management",
+      "item": [
+        {
+          "name": "Health Check",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8000/api/health",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8000",
+              "path": ["api", "health"]
+            }
+          }
+        },
+        {
+          "name": "Get Logs",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8000/__logs",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8000",
+              "path": ["__logs"]
+            }
+          }
+        },
+        {
+          "name": "Reload Config",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8000/__reload",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8000",
+              "path": ["__reload"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

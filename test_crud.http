@@ -1,0 +1,55 @@
+### Test CRUD Operations for Games API
+### Make sure the server is running: python main.py
+
+### 1. GET all games (before changes)
+GET http://localhost:8000/api/games
+Content-Type: application/json
+
+###
+
+### 2. POST - Create a new game
+POST http://localhost:8000/api/games
+Content-Type: application/json
+
+{
+  "title": "Elden Ring",
+  "price": "$59.99",
+  "rating": 9.5,
+  "genres": ["RPG", "Action"],
+  "new_release": true,
+  "highest_rated": true
+}
+
+###
+
+### 3. GET all games (should include Elden Ring)
+GET http://localhost:8000/api/games
+Content-Type: application/json
+
+###
+
+### 4. GET search for new game
+GET http://localhost:8000/api/games/search?title=Elden Ring
+Content-Type: application/json
+
+###
+
+### 5. DELETE a game
+DELETE http://localhost:8000/api/games?title=Elden Ring
+Content-Type: application/json
+
+###
+
+### 6. GET all games (Elden Ring should be gone)
+GET http://localhost:8000/api/games
+Content-Type: application/json
+
+###
+Content-Type: application/json
+
+{
+  "title": "NonExistentGame",
+  "price": "$99.99"
+}
+
+###

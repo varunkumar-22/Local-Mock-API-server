@@ -1,0 +1,185 @@
+{
+  "$schema": "./config_schema.json",
+  "port": 8000,
+  "cors": true,
+  "database": "config/databases/GAMES.JSON",
+  "endpoints": [
+    {
+      "path": "/api/games",
+      "method": "GET",
+      "response": {
+        "games": "{{database}}",
+        "timestamp": "{{timestamp}}",
+        "total": "{{database_count}}"
+      },
+      "status": 200,
+      "latency_ms": 100,
+      "failure_rate": 0.0
+    },
+    {
+      "path": "/api/games/new-releases",
+      "method": "GET",
+      "response": {
+        "games": "{{database_filter:new_release:true}}",
+        "timestamp": "{{timestamp}}"
+      },
+      "status": 200,
+      "latency_ms": 50,
+      "failure_rate": 0.0
+    },
+    {
+      "path": "/api/games/highest-rated",
+      "method": "GET",
+      "response": {
+        "games": "{{database_filter:highest_rated:true}}",
+        "timestamp": "{{timestamp}}"
+      },
+      "status": 200,
+      "latency_ms": 50,
+      "failure_rate": 0.0
+    },
+    {
+      "path": "/api/games/discounts",
+      "method": "GET",
+      "response": {
+        "games": "{{database}}",
+        "timestamp": "{{timestamp}}"
+      },
+      "status": 200,
+      "latency_ms": 100,
+      "failure_rate": 0.0
+    },
+    {
+      "path": "/api/games/search",
+      "method": "GET",
+      "response": {
+        "game": "{{database_find:title:{{query.title}}}}",
+        "timestamp": "{{timestamp}}"
+      },
+      "status": 200,
+      "latency_ms": 50,
+      "failure_rate": 0.0
+    },
+    {
+      "path": "/api/games/genre",
+      "method": "GET",
+      "response": {
+        "games": "{{database_filter_genre:{{query.genre}}}}",
+        "genre": "{{query.genre}}",
+        "timestamp": "{{timestamp}}"
+      },
+      "status": 200,
+      "latency_ms": 50,
+      "failure_rate": 0.0
+    },
+    {
+      "path": "/api/health",
+      "method": "GET",
+      "response": {
+        "status": "healthy",
+        "timestamp": "{{timestamp}}",
+        "uptime": "{{random_int}}",
+        "request_id": "{{uuid}}"
+      },
+      "status": 200,
+      "latency_ms": 10,
+      "failure_rate": 0.0
+    },
+    {
+      "path": "/api/games",
+      "method": "POST",
+      "response": {
+        "message": "Game created successfully",
+        "game_id": "{{uuid}}",
+        "created_at": "{{timestamp}}",
+        "status": "success"
+      },
+      "status": 201,
+      "latency_ms": 150,
+      "failure_rate": 0.0
+    },
+
+    {
+      "path": "/api/games",
+      "method": "DELETE",
+      "response": {
+        "message": "Game deleted successfully",
+        "game_id": "{{query.id}}",
+        "deleted_at": "{{timestamp}}",
+        "status": "success"
+      },
+      "status": 200,
+      "latency_ms": 100,
+      "failure_rate": 0.0
+    },
+
+    {
+      "path": "/api/games/review",
+      "method": "POST",
+      "response": {
+        "message": "Review submitted successfully",
+        "review_id": "{{uuid}}",
+        "game_title": "{{query.title}}",
+        "review_text": "{{query.review}}",
+        "submitted_at": "{{timestamp}}",
+        "status": "pending_approval"
+      },
+      "status": 201,
+      "latency_ms": 100,
+      "failure_rate": 0.0
+    },
+    {
+      "path": "/api/games/wishlist",
+      "method": "GET",
+      "response": {
+        "wishlist": [
+          {
+            "title": "Minecraft",
+            "added_at": "2025-11-15T10:30:00Z",
+            "price": "$26.95"
+          },
+          {
+            "title": "The Witcher 3",
+            "added_at": "2025-11-20T14:22:00Z",
+            "price": "$39.99"
+          },
+          {
+            "title": "Cyberpunk 2077",
+            "added_at": "2025-12-01T09:15:00Z",
+            "price": "$59.99"
+          }
+        ],
+        "total_items": 3,
+        "timestamp": "{{timestamp}}"
+      },
+      "status": 200,
+      "latency_ms": 50,
+      "failure_rate": 0.0
+    },
+    {
+      "path": "/api/games/wishlist",
+      "method": "POST",
+      "response": {
+        "message": "Added to wishlist",
+        "game_title": "{{query.title}}",
+        "added_at": "{{timestamp}}",
+        "wishlist_count": "{{random_int}}"
+      },
+      "status": 200,
+      "latency_ms": 80,
+      "failure_rate": 0.0
+    },
+    {
+      "path": "/api/games/wishlist",
+      "method": "DELETE",
+      "response": {
+        "message": "Removed from wishlist",
+        "game_title": "{{query.title}}",
+        "removed_at": "{{timestamp}}"
+      },
+      "status": 200,
+      "latency_ms": 80,
+      "failure_rate": 0.0
+    }
+  ]
+}

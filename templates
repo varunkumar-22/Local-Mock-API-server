@@ -1,0 +1,29 @@
+# Templates Directory
+
+This directory is reserved for template snippets and reusable response fragments.
+
+## Usage
+
+You can store common response templates here and reference them in your endpoint configurations.
+
+## Example
+
+**template_user.json:**
+```json
+{
+  "id": "{{uuid}}",
+  "created_at": "{{timestamp}}",
+  "updated_at": "{{timestamp}}"
+}
+```
+
+## Future Enhancement
+
+In future versions, you'll be able to include templates using:
+```json
+{
+  "response": {
+    "user": "{{template:user}}"
+  }
+}
+```
