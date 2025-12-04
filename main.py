@@ -6,7 +6,7 @@ app = FastAPI()
 
 # ---------------- CORS ----------------
 origins = [
-    "https://your-frontend-on-render.com",  # replace with your deployed frontend URL
+    "https://local-mock-api-server-3.onrender.com/",  # replace with your deployed frontend URL
     "http://localhost:3000"
 ]
 
